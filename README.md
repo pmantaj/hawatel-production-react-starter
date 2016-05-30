@@ -29,6 +29,7 @@
 - [redux](https://github.com/gaearon/redux)
 - [react Fontawsome](https://github.com/danawoodman/react-fontawesome)
 - [bootstrap-loader](https://github.com/shakacode/bootstrap-loader) (configurable with .bootstraprc)
+- [esdoc](https://esdoc.org/)
 - Sass modules ([sass-loader](https://github.com/jtangelder/sass-loader) [css-loader](https://github.com/webpack/css-loader) [style-loader](https://github.com/webpack/style-loader))
 - [redux-logger](https://github.com/fcomb/redux-logger)
 - [react-document-meta](https://github.com/kodyl/react-document-meta)
@@ -51,6 +52,7 @@
 |`npm run build:production`|Same as `npm run clean & npm run build`
 |`npm run lint`|Lint all .js files.|
 |`npm run test`|Runs unit tests with Karma|
+|`npm run doc`|Generate an ESDoc documentation|
 
 ## Structure
 

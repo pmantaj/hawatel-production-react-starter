@@ -8,7 +8,8 @@
     "build:production": "npm run clean && npm run build",
     "lint": "eslint src",
     "start": "node bin/server.js",
-    "test": "karma start"
+    "test": "karma start",
+    "doc": "esdoc -c ./.esdoc.json"
   },
   "repository": {
     "type": "git",
@@ -55,6 +56,8 @@
     "chai": "^3.5.0",
     "classnames": "^2.2.3",
     "css-loader": "^0.23.1",
+    "esdoc": "^0.4.7",
+    "esdoc-es7-plugin": "0.0.3",
     "eslint": "^1.10.3",
     "eslint-config-airbnb": "3.1.0",
     "eslint-plugin-react": "^3.16.1",
